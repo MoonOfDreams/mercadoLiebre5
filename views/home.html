@@ -4,21 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
       rel="stylesheet"
     />
+    
     <link href="css/home.css" rel="stylesheet" />
     <title>Mercado Liebre</title>
   </head>
   <body>
-    <header><a href="/"
+    <header>
+      <a href="/"
         ><img src="/img/logo-mercado-liebre.svg" alt="logo mercado liebre"
       /></a>
-      <div class="busqueda">
+      <form >
         <input type="search" placeholder="Busca productos, marcas" />
-        <button><i class="fa-solid fa-magnifying-glass"></i></button>
-      </div>
+        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>
       <p class="comprar">
         <i class="fa-solid fa-hand-holding-dollar"></i>
         Comprá en cuotas y sin tarjeta de crédito
@@ -33,12 +36,14 @@
         </ul>
         <ul>
           <li>
-            <a href="#">
+            <a href="/register">
               Creá tu cuenta<i class="fa-sharp fa-solid fa-address-card"></i
             ></a>
           </li>
           <li>
-            <a href="#"> Ingresá<i class="fa-solid fa-right-to-bracket"></i></a>
+            <a href="/login">
+              Ingresá<i class="fa-solid fa-right-to-bracket"></i
+            ></a>
           </li>
           <li>
             <a href="#">

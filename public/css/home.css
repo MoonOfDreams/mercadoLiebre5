@@ -12,82 +12,7 @@
   --Precio: 18px;
   --Titulo: 24px;
 }
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: var(--tipografia);
-}
-header {
-  background-color: var(--amarillo);
-  padding: 25px 10px 15px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-p {
-  font-size: var(--Parrafo);
-}
-a {
-  color: black;
-  text-decoration: none;
-}
-li {
-  list-style: none;
-}
-header a {
-  width: 50%;
-}
-header a img {
-  width: 100%;
-}
-header div.busqueda {
-  box-sizing: border-box;
-  margin-bottom: 10px;
-  width: 50%;
-  display: flex;
-  flex-direction: row;
-}
-header div.busqueda button {
-  width:40px;
-height: 40px;
-  border: none;
-  border-right: 5px;
-  background-color: white;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-header div.busqueda i {
-  font-size: 10px;
-}
-header div.busqueda input {
-  width: calc(100% - 40px);
-  border: none;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  background-color: white;
-  outline: none;
-  padding: 5px;
-}
-header p.comprar {
-  display: block;
-  width: 100%;
-  text-align: center;
-  font-size: var(--Parrafo);
-  margin-bottom: 15px;
-}
-header nav {
-  display: none;
-}
-header div.burger-menu {
-  background-color: var(--celeste);
-  border-radius: 5px;
-  color: var(--gris-claro);
-  width: 35px;
-  padding: 7px;
-  margin: 25px auto 0;
-  text-align: center;
-}
+
 main section article img {
   width: 100%;
 }
@@ -147,54 +72,10 @@ main section article div p.descuento {
   width: 70%;
 }
 
-main section article div h2 {
-  font-size: var(--Titulo);
-  color: var(--gris-oscuro);
-  width: 100%;
-  display: none;
-}
-footer {
-  background-color: white;
-  padding: 50px 10px 10px;
-}
-footer i {
-  font-size: 2em;
-  color: var(--celeste);
-}
-
-footer article {
-  text-align: center;
-  margin-bottom: 55px;
-}
 /* Tablet */
 
 @media (min-width: 361px) {
-  header{
-    align-items: center;
-  } 
-  header a {
-    width:32%;
-  }
-  header div.busqueda{
-    width: 32%;
-  }
-  header p.comprar{
-    width:32%;
-
-  }
-  header nav {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-  }
-  header nav ul {
-    display: flex;
-    font-size: 10px;
-    gap:5px;
-  }
-  header div.burger-menu {
-    display: none;
-  }
+ 
   main section article {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     width: calc(50% - 10px);
@@ -212,10 +93,7 @@ footer article {
   }
 }
 @media (min-width: 769px) {
-  header nav ul{
-    gap: 10px;
-    font-size: var(--Parrafo);
-  }
+  
   main section article {
     width: calc(25% - 10px);
   }
